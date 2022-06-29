@@ -1,0 +1,37 @@
+﻿@model ICollection<WebFPTBook.Models.Category>;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Request</title>
+</head>
+<body>
+<center>
+    <div class="container col-md-8 text-center mt-3">
+    <h1 class="text text-danger">Category Request</h1>
+    <table class="table-bordered">
+        <tr>
+            <th>Category Name</th>
+            <th>Category Image</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (var category in Model)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.Name</td>
+                    <td>@category.Image</td>
+                    <td>
+                        <input class="btn btn-primary" type="submit" value="Approved" />
+                        <input class="btn btn-danger" type="submit" value="Denied" />
+                    </td>
+                </tr>
+            }
+    </table>
+    </div>
+</center>
+</body>
+</html>

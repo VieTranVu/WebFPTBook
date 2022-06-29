@@ -1,0 +1,52 @@
+﻿#table_list {
+    border: 5px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: aqua;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+td {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    font-family: .VnTime;
+    background-color:  cadetblue;
+}
+
+body {
+    background-image: url('https://thumbs.dreamstime.com/z/books-background-22199819.jpg');
+    background-size: cover;
+}
+
+.text {
+    font-size: 30px;
+    color:   black;
+}
+
+#edit {
+    background-color:   brown;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 90%;
+}
+
+#delete {
+    background-color: #F44336;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 90%;
+}
+}
